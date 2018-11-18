@@ -153,6 +153,16 @@ body {
 .navbar-default .navbar-toggle {
   background-color: #a12226; }
 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #a12226; }
+
+.navbar-brand {
+  margin-bottom: 20px; }
+
+.navbar-collapse {
+  box-shadow: 0; }
+
 .slider__background {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
@@ -313,5 +323,11 @@ ul.site-navigation {
       color: #a12226; }
 
 /***************** Owl carousel custom navigation  *****************/
+.owl-prev {
+  outline: 0; }
+
+.owl-next {
+  outline: 0; }
+
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background: transparent !important; }

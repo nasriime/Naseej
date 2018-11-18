@@ -13,8 +13,13 @@
 .navbar-default .navbar-toggle {
   background-color: #a12226;
 }
-
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-  background-color: #fff;
+  background-color: #a12226;
+}
+.navbar-brand {
+  margin-bottom: 20px;
+}
+.navbar-collapse {
+  box-shadow: none;
 }

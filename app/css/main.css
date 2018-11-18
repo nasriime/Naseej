@@ -146,6 +146,13 @@ body {
   padding-right: 0;
   padding-left: 0; }
 
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent; }
+
+.navbar-default .navbar-toggle {
+  background-color: #a12226; }
+
 .slider__background {
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
@@ -211,7 +218,11 @@ ul.site-navigation {
   border-bottom: 0.1px solid #ccc; }
 
 /***************** services-index *****************/
+.spacer-wrapper {
+  height: 20px; }
+
 .spacer {
+  margin-top: 20px;
   border-top: 1px solid #a1a0a0; }
 
 .services-index {
@@ -220,6 +231,9 @@ ul.site-navigation {
 .indexes {
   margin-top: 30px;
   border-bottom: 1px solid #c1c1c1; }
+
+.index-text {
+  padding-top: 10px; }
 
 .index-btn {
   padding: 10px 30px;
@@ -299,20 +313,5 @@ ul.site-navigation {
       color: #a12226; }
 
 /***************** Owl carousel custom navigation  *****************/
-.owl-prev {
-  position: absolute;
-  top: 40%;
-  right: -60px;
-  margin-left: -20px;
-  display: block !important;
-  outline: 0; }
-
-.owl-next {
-  position: absolute;
-  top: 40%;
-  left: -60px;
-  display: block !important;
-  outline: 0; }
-
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background: transparent !important; }

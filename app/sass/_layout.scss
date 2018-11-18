@@ -6,3 +6,15 @@
   padding-right: 0;
   padding-left: 0;
 }
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  background-color: #a12226;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}

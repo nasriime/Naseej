@@ -17,7 +17,22 @@ $(document).ready(function() {
     }
   });
 
-  $("#owl-2").owlCarousel({
+  owl("#individuals");
+
+  $(".services-index__item").click(function() {
+    $(".services-index__item").removeClass("active");
+    $(this).addClass("active");
+
+    $(".user .container >div").removeClass("active");
+    var id = $(this).data("id");
+    console.log(id);
+    $(id).addClass("active");
+    owl(id);
+  });
+});
+
+function owl(id) {
+  $(id).owlCarousel({
     rtl: true,
     margin: 15,
     dots: false,
@@ -38,4 +53,4 @@ $(document).ready(function() {
       }
     }
   });
-});
+}

@@ -1,0 +1,6 @@
+.user .container > div {
+  display: none;
+  &.active {
+    display: block;
+  }
+}
